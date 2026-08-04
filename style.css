@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f8ff;
+    color:#222;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#003b9b,#00a2ff);
+    color:white;
+}
+
+.logo{
+    width:220px;
+    background:white;
+    border-radius:20px;
+    padding:10px;
+    margin-bottom:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+h1{
+    font-size:55px;
+    letter-spacing:5px;
+}
+
+.slogan{
+    margin:15px 0 30px;
+    font-size:20px;
+}
+
+.btn{
+    text-decoration:none;
+    color:#0055cc;
+    background:white;
+    padding:15px 35px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#dfefff;
+}
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:60px auto;
+}
+
+section h2{
+    text-align:center;
+    color:#0047b3;
+    margin-bottom:30px;
+    font-size:36px;
+}
+
+section p{
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:240px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#0066ff;
+    margin-bottom:15px;
+}
+
+.why ul{
+    list-style:none;
+    max-width:600px;
+    margin:auto;
+}
+
+.why li{
+    background:white;
+    margin:15px 0;
+    padding:18px;
+    border-left:5px solid #008cff;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    font-size:18px;
+}
+
+footer{
+    background:#003b9b;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+footer h3{
+    margin-bottom:10px;
+    font-size:30px;
+}
